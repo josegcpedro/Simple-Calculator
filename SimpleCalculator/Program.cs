@@ -10,6 +10,8 @@ class Program
         Console.WriteLine("2. Soustraction");
         Console.WriteLine("3. Multiplication");
         Console.WriteLine("4. Division");
+        Console.WriteLine("5. Modulo")
+        Console.WriteLine("5. Puissances")
 
         string choix = Console.ReadLine();
 
@@ -25,7 +27,7 @@ class Program
                 Soustraction();
                 break;
             case "3":
-                //Multiplication();
+                Multiplication();
                 break;
             case "4":
                 //Division();
@@ -43,10 +45,13 @@ class Program
         Console.WriteLine("Donnez votre deuxième chiffre");
         string reponse2 = Console.ReadLine();
 
-        if (int.TryParse(reponse1, out int chiffre1) && int.TryParse(reponse2, out int chiffre2)){
+        if (int.TryParse(reponse1, out int chiffre1) && int.TryParse(reponse2, out int chiffre2))
+        {
             int resultat = chiffre1 + chiffre2;
             Console.WriteLine("Le resultat de votre opération est de: " + resultat);
-        } else {
+        }
+        else
+        {
             Console.WriteLine("Veuillez mettre des chiffres");
         }
     }
@@ -58,10 +63,31 @@ class Program
         Console.WriteLine("Donnez votre deuxième chiffre");
         string reponse2 = Console.ReadLine();
 
-        if (int.TryParse(reponse1, out int chiffre1) && int.TryParse(reponse2, out int chiffre2)){
+        if (int.TryParse(reponse1, out int chiffre1) && int.TryParse(reponse2, out int chiffre2))
+        {
             int resultat = chiffre1 - chiffre2;
             Console.WriteLine("Le resultat de votre opération est de: " + resultat);
-        } else {
+        }
+        else
+        {
+            Console.WriteLine("Veuillez mettre des chiffres");
+        }
+    }
+
+    static void Multiplication()
+    {
+        Console.WriteLine("Donnez votre premier chiffre");
+        string reponse1 = Console.ReadLine();
+        Console.WriteLine("Donnez votre deuxième chiffre");
+        string reponse2 = Console.ReadLine();
+
+        if (int.TryParse(reponse1, out int chiffre1) && int.TryParse(reponse2, out int chiffre2))
+        {
+            int resultat = chiffre1 * chiffre2;
+            Console.WriteLine("Le resultat de votre opération est de: " + resultat);
+        }
+        else
+        {
             Console.WriteLine("Veuillez mettre des chiffres");
         }
     }
