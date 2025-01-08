@@ -33,10 +33,10 @@ class Program
                 Division();
                 break;
             case "5":
-                //Modulo();
+                Modulo();
                 break;
             case "6":
-                //Puissances();
+                Puissances();
                 break;
             default:
                 Console.WriteLine("erreur");
@@ -114,5 +114,40 @@ class Program
         {
             Console.WriteLine("Veuillez mettre des chiffres");
         }
+    }
+
+    static void Modulo()
+    {
+        Console.WriteLine("Donnez votre premier chiffre");
+        string reponse1 = Console.ReadLine();
+        Console.WriteLine("Donnez votre deuxième chiffre");
+        string reponse2 = Console.ReadLine();
+
+        if (int.TryParse(reponse1, out int chiffre1) && int.TryParse(reponse2, out int chiffre2))
+        {
+            int resultat = chiffre1 % chiffre2;
+            Console.WriteLine("Le resultat de votre opération est de: " + resultat);
+        }
+        else
+        {
+            Console.WriteLine("Veuillez mettre des chiffres entiers.");
+        }
+    }
+
+    static void Puissances(){
+        Console.WriteLine("Donnez votre chiffre");
+        string reponse1 = Console.ReadLine();
+        Console.WriteLine("Vous voulez multiplier ce chiffre par lui même combien de fois?");
+        string reponse2 = Console.ReadLine();
+
+        int.TryParse(reponse1, out int chiffre1);
+        int.TryParse(reponse2, out int chiffre2);
+        int resultat = 1;
+
+        for(int i = 0; i < chiffre2; i++){
+            resultat *= chiffre1;
+        }
+
+        Console.WriteLine("Le resultat est de: " + resultat);
     }
 }
