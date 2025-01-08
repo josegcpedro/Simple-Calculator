@@ -18,23 +18,36 @@ class Program
 
         switch (choix)
         {
-            case "Addition":
+            case "1":
                 Addition();
                 break;
-            case "Multiplication":
-                Multiplication();
+            case "2":
+                //Multiplication();
                 break;
-            case "Soustraction":
-                Soustraction();
+            case "3":
+                //Soustraction();
                 break;
-            case "Division":
-                Division();
+            case "4":
+                //Division();
                 break;
             default:
-                Console.ReadLine("erreur");
+                Console.WriteLine("erreur");
                 break;
         }
     }
 
+    static void Addition()
+    {
+        Console.WriteLine("Donnez votre premier chiffre");
+        string reponse1 = Console.ReadLine();
+        Console.WriteLine("Donnez votre deuxième chiffre");
+        string reponse2 = Console.ReadLine();
 
+        if (int.TryParse(reponse1, out int chiffre1) && int.TryParse(reponse2, out int chiffre2)){
+            int resultat = chiffre1 + chiffre2;
+            Console.WriteLine("Le resultat de votre opération est de: " + resultat);
+        } else {
+            Console.WriteLine("Chiffre pas normal");
+        }
+    }
 }
