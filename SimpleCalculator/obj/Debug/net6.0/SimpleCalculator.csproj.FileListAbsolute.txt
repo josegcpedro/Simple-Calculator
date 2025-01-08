@@ -1,0 +1,15 @@
+/Users/josepedro/Desktop/c#/C#SimpleCalculator/SimpleCalculator/obj/Debug/net6.0/SimpleCalculator.csproj.AssemblyReference.cache
+/Users/josepedro/Desktop/c#/C#SimpleCalculator/SimpleCalculator/obj/Debug/net6.0/SimpleCalculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/josepedro/Desktop/c#/C#SimpleCalculator/SimpleCalculator/obj/Debug/net6.0/SimpleCalculator.AssemblyInfoInputs.cache
+/Users/josepedro/Desktop/c#/C#SimpleCalculator/SimpleCalculator/obj/Debug/net6.0/SimpleCalculator.AssemblyInfo.cs
+/Users/josepedro/Desktop/c#/C#SimpleCalculator/SimpleCalculator/obj/Debug/net6.0/SimpleCalculator.csproj.CoreCompileInputs.cache
+/Users/josepedro/Desktop/c#/C#SimpleCalculator/SimpleCalculator/bin/Debug/net6.0/SimpleCalculator
+/Users/josepedro/Desktop/c#/C#SimpleCalculator/SimpleCalculator/bin/Debug/net6.0/SimpleCalculator.deps.json
+/Users/josepedro/Desktop/c#/C#SimpleCalculator/SimpleCalculator/bin/Debug/net6.0/SimpleCalculator.runtimeconfig.json
+/Users/josepedro/Desktop/c#/C#SimpleCalculator/SimpleCalculator/bin/Debug/net6.0/SimpleCalculator.dll
+/Users/josepedro/Desktop/c#/C#SimpleCalculator/SimpleCalculator/bin/Debug/net6.0/ref/SimpleCalculator.dll
+/Users/josepedro/Desktop/c#/C#SimpleCalculator/SimpleCalculator/bin/Debug/net6.0/SimpleCalculator.pdb
+/Users/josepedro/Desktop/c#/C#SimpleCalculator/SimpleCalculator/obj/Debug/net6.0/SimpleCalculator.dll
+/Users/josepedro/Desktop/c#/C#SimpleCalculator/SimpleCalculator/obj/Debug/net6.0/ref/SimpleCalculator.dll
+/Users/josepedro/Desktop/c#/C#SimpleCalculator/SimpleCalculator/obj/Debug/net6.0/SimpleCalculator.pdb
+/Users/josepedro/Desktop/c#/C#SimpleCalculator/SimpleCalculator/obj/Debug/net6.0/SimpleCalculator.genruntimeconfig.cache
